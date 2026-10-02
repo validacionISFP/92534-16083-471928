@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Validar Diplomado - SERGIO RICARDO PAREDES MANZANILLA</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+  background:#f2f2f2;
+}
+
+.overlay{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.modal{
+  background:#fff;
+  border-radius:4px;
+  max-width:1200px;
+  width:100%;
+  box-shadow:0 4px 12px rgba(0,0,0,.25);
+  overflow:hidden;
+}
+
+.modal-header{
+  background:#8b1c1f;
+  color:#fff;
+  padding:14px 24px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.modal-header img{
+  height:38px;
+}
+
+.modal-header h1{
+  font-size:24px;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+.modal-body{
+  padding:20px 24px;
+  display:flex;
+  gap:20px;
+}
+
+.info-column{
+  flex:1;
+}
+
+.images-column{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  align-items:center;
+}
+
+.info-row{
+  display:flex;
+  border:1px solid #e0e0e0;
+  border-bottom:none;
+}
+
+.info-row:last-child{
+  border-bottom:1px solid #e0e0e0;
+}
+
+.label{
+  background:#f7f7f7;
+  font-weight:700;
+  padding:8px 10px;
+  width:40%;
+  border-right:1px solid #e0e0e0;
+}
+
+.value{
+  padding:8px 10px;
+  width:60%;
+}
+
+.cert-img{
+  width:100%;
+  max-width:520px;
+  border:1px solid #ddd;
+}
+
+@media(max-width:900px){
+  .modal-body{
+    flex-direction:column;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<div class="modal">
+
+<div class="modal-header">
+<img src="logo.png" alt="Logo">
+<h1>VALIDAR DIPLOMA</h1>
+</div>
+
+<div class="modal-body">
+
+<div class="info-column">
+
+<div class="info-row">
+<div class="label">Situación:</div>
+<div class="value">REGULAR</div>
+</div>
+
+<div class="info-row">
+<div class="label">Alumno:</div>
+<div class="value">SERGIO RICARDO PAREDES MANZANILLA</div>
+</div>
+
+<div class="info-row">
+<div class="label">Documento:</div>
+<div class="value">02</div>
+</div>
+
+<div class="info-row">
+<div class="label">Matrícula:</div>
+<div class="value">719542</div>
+</div>
+
+<div class="info-row">
+<div class="label">Categoría:</div>
+<div class="value">Salud</div>
+</div>
+
+<div class="info-row">
+<div class="label">Diplomado:</div>
+<div class="value">ATENCIÓN Y MOVILIZACIÓN DE PACIENTES</div>
+</div>
+
+<div class="info-row">
+<div class="label">Inicio:</div>
+<div class="value">28/06/2026</div>
+</div>
+
+<div class="info-row">
+<div class="label">Término:</div>
+<div class="value">01/10/2026</div>
+</div>
+
+<div class="info-row">
+<div class="label">Carga Horaria:</div>
+<div class="value">200 Horas</div>
+</div>
+
+<div class="info-row">
+<div class="label">Registro N°:</div>
+<div class="value">92534-16083-471928</div>
+</div>
+
+</div>
+
+<div class="images-column">
+
+<img class="cert-img" src="frente.jpg" alt="Frente del diploma">
+
+<img class="cert-img" src="atras.jpg" alt="Reverso del diploma">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
